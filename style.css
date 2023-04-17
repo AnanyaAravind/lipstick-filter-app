@@ -1,0 +1,17 @@
+body{
+    font-family: cursive;
+}
+canvas{
+    
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.btn-info:hover{
+    background-color: green;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px  red;}
+    to{box-shadow: 1px 1px 38px  yellow;}
+}
